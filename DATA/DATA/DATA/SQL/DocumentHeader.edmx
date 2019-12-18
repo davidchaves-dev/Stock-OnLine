@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="LibertadSACabeceraFacturaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <Function Name="Insert_DocumentHeader" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="StockSystem" Type="varchar" Mode="In" />
+          <Parameter Name="IdMessage" Type="varchar" Mode="In" />
+          <Parameter Name="BranchId" Type="varchar" Mode="In" />
+          <Parameter Name="TrxId" Type="varchar" Mode="In" />
+          <Parameter Name="TrxDateTime" Type="varchar" Mode="In" />
+          <Parameter Name="TrxDocType" Type="varchar" Mode="In" />
+          <Parameter Name="ClientDoc" Type="varchar" Mode="In" />
+          <Parameter Name="ClientName" Type="varchar" Mode="In" />
+          <Parameter Name="ClientAdress" Type="varchar" Mode="In" />
+          <Parameter Name="GUID" Type="varchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="LibertadSACabeceraFacturaModelStoreContainer" />
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LibertadSACabeceraFacturaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="LibertadSACabeceraFacturaEntities" annotation:LazyLoadingEnabled="true" >
+          <FunctionImport Name="Insert_DocumentHeader">
+            <Parameter Name="StockSystem" Mode="In" Type="String" />
+            <Parameter Name="IdMessage" Mode="In" Type="String" />
+            <Parameter Name="BranchId" Mode="In" Type="String" />
+            <Parameter Name="TrxId" Mode="In" Type="String" />
+            <Parameter Name="TrxDateTime" Mode="In" Type="String" />
+            <Parameter Name="TrxDocType" Mode="In" Type="String" />
+            <Parameter Name="ClientDoc" Mode="In" Type="String" />
+            <Parameter Name="ClientName" Mode="In" Type="String" />
+            <Parameter Name="ClientAdress" Mode="In" Type="String" />
+            <Parameter Name="GUID" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LibertadSACabeceraFacturaModelStoreContainer" CdmEntityContainer="LibertadSACabeceraFacturaEntities" >
+          <FunctionImportMapping FunctionImportName="Insert_DocumentHeader" FunctionName="LibertadSACabeceraFacturaModel.Store.Insert_DocumentHeader" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

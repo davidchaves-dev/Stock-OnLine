@@ -1,0 +1,17 @@
+{
+  "endPointGroups": [
+    {
+      "Name": "LARS",
+      "endPointList": [
+        { "URI": "http://localhost:6000/api/default/sendDoc" },
+      ]
+    },
+    {
+      "Name": "GOLD",
+      "endPointList": [
+        { "URI": "http://localhost:5001/api/default/sendDoc" }
+      ]
+    }
+
+  ]
+}

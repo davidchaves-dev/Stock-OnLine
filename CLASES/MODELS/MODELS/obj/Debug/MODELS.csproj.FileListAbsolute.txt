@@ -1,0 +1,17 @@
+C:\Users\ext_dchaves\Desktop\Proyecto SOL\CLASES\MODELS\MODELS\bin\Debug\MODELS.dll
+C:\Users\ext_dchaves\Desktop\Proyecto SOL\CLASES\MODELS\MODELS\bin\Debug\MODELS.pdb
+C:\Users\ext_dchaves\Desktop\Proyecto SOL\CLASES\MODELS\MODELS\obj\Debug\MODELS.csprojAssemblyReference.cache
+C:\Users\ext_dchaves\Desktop\Proyecto SOL\CLASES\MODELS\MODELS\obj\Debug\MODELS.csproj.CoreCompileInputs.cache
+C:\Users\ext_dchaves\Desktop\Proyecto SOL\CLASES\MODELS\MODELS\obj\Debug\MODELS.dll
+C:\Users\ext_dchaves\Desktop\Proyecto SOL\CLASES\MODELS\MODELS\obj\Debug\MODELS.pdb
+E:\Webapi\WEBAPI\HL\Proyecto SOL\CLASES\MODELS\MODELS\bin\Debug\MODELS.dll
+E:\Webapi\WEBAPI\HL\Proyecto SOL\CLASES\MODELS\MODELS\bin\Debug\MODELS.pdb
+E:\Webapi\WEBAPI\HL\Proyecto SOL\CLASES\MODELS\MODELS\obj\Debug\MODELS.dll
+E:\Webapi\WEBAPI\HL\Proyecto SOL\CLASES\MODELS\MODELS\obj\Debug\MODELS.pdb
+C:\Users\ext_dchaves\Documents\GitHub\HL\Proyecto SOL\CLASES\MODELS\MODELS\bin\Debug\MODELS.dll
+C:\Users\ext_dchaves\Documents\GitHub\HL\Proyecto SOL\CLASES\MODELS\MODELS\bin\Debug\MODELS.pdb
+C:\Users\ext_dchaves\Documents\GitHub\HL\Proyecto SOL\CLASES\MODELS\MODELS\obj\Debug\MODELS.csprojAssemblyReference.cache
+C:\Users\ext_dchaves\Documents\GitHub\HL\Proyecto SOL\CLASES\MODELS\MODELS\obj\Debug\MODELS.csproj.CoreCompileInputs.cache
+C:\Users\ext_dchaves\Documents\GitHub\HL\Proyecto SOL\CLASES\MODELS\MODELS\obj\Debug\MODELS.dll
+C:\Users\ext_dchaves\Documents\GitHub\HL\Proyecto SOL\CLASES\MODELS\MODELS\obj\Debug\MODELS.pdb
+E:\Webapi\WEBAPI\HL\Proyecto SOL\CLASES\MODELS\MODELS\obj\Debug\MODELS.csprojAssemblyReference.cache

@@ -1,0 +1,17 @@
+{
+  "endPointGroups": [
+    {
+      "Name": "GOLD_Process_Story_StockPage",
+      "endPointList": [
+        { "URI": "http://localhost:9001/api/default/SendStoryStockPage" }
+      ]
+    },
+    {
+      "Name": "GOLD_Process_Story_MovePage",
+      "endPointList": [
+        { "URI": "http://localhost:9001/api/default/SendStoryMovePage" }
+      ]
+    }
+
+  ]
+}

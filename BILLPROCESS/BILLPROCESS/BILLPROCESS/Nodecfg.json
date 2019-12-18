@@ -1,0 +1,22 @@
+{
+  "endPointGroups": [
+    {
+      "Name": "LARS_Items",
+      "endPointList": [
+        { "URI": "http://localhost:6001/api/default/sendItems" }
+      ]
+    },
+    {
+      "Name": "LARS_BillHeader",
+      "endPointList": [
+        { "URI": "http://localhost:6002/api/default/sendHeader" }
+      ]
+    },
+    {
+      "Name": "LARS_Count",
+      "endPointList": [
+        { "URI": "http://localhost:6003/api/default/UpdateStock" }
+      ]
+    }
+  ]
+}

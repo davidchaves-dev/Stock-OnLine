@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LibertadSADetalleFacturaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="LibertadSADetalleFacturaEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="Insert_DocumentItem">
+      <Parameter Name="Code" Mode="In" Type="String" />
+      <Parameter Name="Cant" Mode="In" Type="Decimal" />
+      <Parameter Name="DocCode" Mode="In" Type="String" />
+      <Parameter Name="Exclusive" Mode="In" Type="Boolean" />
+      <Parameter Name="Ecommerce" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="Insert_DocumentItem1">
+      <Parameter Name="Code" Mode="In" Type="String" />
+      <Parameter Name="Cant" Mode="In" Type="Decimal" />
+      <Parameter Name="DocCode" Mode="In" Type="String" />
+      <Parameter Name="Exclusive" Mode="In" Type="Boolean" />
+      <Parameter Name="Ecommerce" Mode="In" Type="Boolean" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

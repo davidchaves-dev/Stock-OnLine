@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LibertadSACabeceraFacturaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <Function Name="Insert_DocumentHeader" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="StockSystem" Type="varchar" Mode="In" />
+    <Parameter Name="IdMessage" Type="varchar" Mode="In" />
+    <Parameter Name="BranchId" Type="varchar" Mode="In" />
+    <Parameter Name="TrxId" Type="varchar" Mode="In" />
+    <Parameter Name="TrxDateTime" Type="varchar" Mode="In" />
+    <Parameter Name="TrxDocType" Type="varchar" Mode="In" />
+    <Parameter Name="ClientDoc" Type="varchar" Mode="In" />
+    <Parameter Name="ClientName" Type="varchar" Mode="In" />
+    <Parameter Name="ClientAdress" Type="varchar" Mode="In" />
+    <Parameter Name="GUID" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="LibertadSACabeceraFacturaModelStoreContainer" />
+</Schema>

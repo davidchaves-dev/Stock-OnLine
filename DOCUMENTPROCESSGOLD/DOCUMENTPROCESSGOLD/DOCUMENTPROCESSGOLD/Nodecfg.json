@@ -1,0 +1,10 @@
+{
+  "endPointGroups": [
+    {
+      "Name": "LARS_Items",
+      "endPointList": [
+        { "URI": "http://localhost:8001/api/default/sendStory" }
+      ]
+    }
+  ]
+}

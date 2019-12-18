@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LibertadSACabeceraFacturaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="LibertadSACabeceraFacturaEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="Insert_DocumentHeader">
+      <Parameter Name="StockSystem" Mode="In" Type="String" />
+      <Parameter Name="IdMessage" Mode="In" Type="String" />
+      <Parameter Name="BranchId" Mode="In" Type="String" />
+      <Parameter Name="TrxId" Mode="In" Type="String" />
+      <Parameter Name="TrxDateTime" Mode="In" Type="String" />
+      <Parameter Name="TrxDocType" Mode="In" Type="String" />
+      <Parameter Name="ClientDoc" Mode="In" Type="String" />
+      <Parameter Name="ClientName" Mode="In" Type="String" />
+      <Parameter Name="ClientAdress" Mode="In" Type="String" />
+      <Parameter Name="GUID" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

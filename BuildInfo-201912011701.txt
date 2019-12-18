@@ -1,0 +1,64 @@
+1>------ Rebuild All started: Project: MODELS, Configuration: Debug Any CPU ------
+1>  MODELS -> E:\Webapi\WEBAPI\HL\Proyecto SOL\CLASES\MODELS\MODELS\bin\Debug\MODELS.dll
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+
+1>------ Rebuild All started: Project: NODO, Configuration: Debug Any CPU ------
+1>  NODO -> E:\Webapi\WEBAPI\HL\Proyecto SOL\NODO\NODO\bin\Debug\NODO.dll
+2>------ Rebuild All started: Project: Nodo_Console, Configuration: Debug Any CPU ------
+2>  Nodo_Console -> E:\Webapi\WEBAPI\HL\Proyecto SOL\NODO\Nodo_Console\bin\Debug\Nodo_Console.exe
+========== Rebuild All: 2 succeeded, 0 failed, 0 skipped ==========
+
+1>------ Rebuild All started: Project: DATA, Configuration: Debug Any CPU ------
+2>------ Rebuild All started: Project: MODELS, Configuration: Debug Any CPU ------
+2>  MODELS -> E:\Webapi\WEBAPI\HL\Proyecto SOL\CLASES\MODELS\MODELS\bin\Debug\MODELS.dll
+1>  DATA -> E:\Webapi\WEBAPI\HL\Proyecto SOL\DATA\DATA\DATA\bin\Debug\DATA.dll
+3>------ Rebuild All started: Project: Test, Configuration: Debug Any CPU ------
+3>  Test -> E:\Webapi\WEBAPI\HL\Proyecto SOL\DATA\DATA\Test\bin\Debug\Test.exe
+========== Rebuild All: 3 succeeded, 0 failed, 0 skipped ==========
+
+1>------ Rebuild All started: Project: NODO, Configuration: Debug Any CPU ------
+2>------ Rebuild All started: Project: MODELS, Configuration: Debug Any CPU ------
+2>  MODELS -> E:\Webapi\WEBAPI\HL\Proyecto SOL\CLASES\MODELS\MODELS\bin\Debug\MODELS.dll
+3>------ Rebuild All started: Project: DATA, Configuration: Debug Any CPU ------
+1>  NODO -> E:\Webapi\WEBAPI\HL\Proyecto SOL\NODO\NODO\bin\Debug\NODO.dll
+3>  DATA -> E:\Webapi\WEBAPI\HL\Proyecto SOL\DATA\DATA\DATA\bin\Debug\DATA.dll
+4>------ Rebuild All started: Project: GATEWAY, Configuration: Debug Any CPU ------
+4>E:\Webapi\WEBAPI\HL\Proyecto SOL\GATEWAY\GATEWAY\GATEWAY\Controllers\DefaultController.cs(25,51,25,84): warning CS0618: 'ConfigurationSettings.AppSettings' is obsolete: 'This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings'
+4>  GATEWAY -> E:\Webapi\WEBAPI\HL\Proyecto SOL\GATEWAY\GATEWAY\GATEWAY\bin\GATEWAY.dll
+========== Rebuild All: 4 succeeded, 0 failed, 0 skipped ==========
+
+1>------ Rebuild All started: Project: NODO, Configuration: Debug Any CPU ------
+2>------ Rebuild All started: Project: MODELS, Configuration: Debug Any CPU ------
+2>  MODELS -> E:\Webapi\WEBAPI\HL\Proyecto SOL\CLASES\MODELS\MODELS\bin\Debug\MODELS.dll
+1>  NODO -> E:\Webapi\WEBAPI\HL\Proyecto SOL\NODO\NODO\bin\Debug\NODO.dll
+3>------ Rebuild All started: Project: BILLPROCESS, Configuration: Debug Any CPU ------
+3>E:\Webapi\WEBAPI\HL\Proyecto SOL\BILLPROCESS\BILLPROCESS\BILLPROCESS\Controllers\DefaultController.cs(16,54,16,87): warning CS0618: 'ConfigurationSettings.AppSettings' is obsolete: 'This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings'
+3>  BILLPROCESS -> E:\Webapi\WEBAPI\HL\Proyecto SOL\BILLPROCESS\BILLPROCESS\BILLPROCESS\bin\BILLPROCESS.dll
+========== Rebuild All: 3 succeeded, 0 failed, 0 skipped ==========
+
+1>------ Rebuild All started: Project: DATA, Configuration: Debug Any CPU ------
+2>------ Rebuild All started: Project: MODELS, Configuration: Debug Any CPU ------
+2>  MODELS -> E:\Webapi\WEBAPI\HL\Proyecto SOL\CLASES\MODELS\MODELS\bin\Debug\MODELS.dll
+1>  DATA -> E:\Webapi\WEBAPI\HL\Proyecto SOL\DATA\DATA\DATA\bin\Debug\DATA.dll
+3>------ Rebuild All started: Project: DATA_BILLHEADER, Configuration: Debug Any CPU ------
+3>  DATA_BILLHEADER -> E:\Webapi\WEBAPI\HL\Proyecto SOL\DATA_BILLHEADER\DATA_BILLHEADER\DATA_BILLHEADER\bin\DATA_BILLHEADER.dll
+========== Rebuild All: 3 succeeded, 0 failed, 0 skipped ==========
+
+1>------ Rebuild All started: Project: DATA, Configuration: Debug Any CPU ------
+2>------ Rebuild All started: Project: MODELS, Configuration: Debug Any CPU ------
+2>  MODELS -> E:\Webapi\WEBAPI\HL\Proyecto SOL\CLASES\MODELS\MODELS\bin\Debug\MODELS.dll
+3>------ Rebuild All started: Project: NODO, Configuration: Debug Any CPU ------
+1>  DATA -> E:\Webapi\WEBAPI\HL\Proyecto SOL\DATA\DATA\DATA\bin\Debug\DATA.dll
+4>------ Rebuild All started: Project: DATA_ITEMS, Configuration: Debug Any CPU ------
+3>  NODO -> E:\Webapi\WEBAPI\HL\Proyecto SOL\NODO\NODO\bin\Debug\NODO.dll
+4>  DATA_ITEMS -> E:\Webapi\WEBAPI\HL\Proyecto SOL\DATA_ITEMS\DATA_ITEMS\DATA_ITEMS\bin\DATA_ITEMS.dll
+========== Rebuild All: 4 succeeded, 0 failed, 0 skipped ==========
+
+1>------ Rebuild All started: Project: MODELS, Configuration: Debug Any CPU ------
+2>------ Rebuild All started: Project: DATA, Configuration: Debug Any CPU ------
+1>  MODELS -> E:\Webapi\WEBAPI\HL\Proyecto SOL\CLASES\MODELS\MODELS\bin\Debug\MODELS.dll
+2>  DATA -> E:\Webapi\WEBAPI\HL\Proyecto SOL\DATA\DATA\DATA\bin\Debug\DATA.dll
+3>------ Rebuild All started: Project: DATA_STOCK, Configuration: Debug Any CPU ------
+3>  DATA_STOCK -> E:\Webapi\WEBAPI\HL\Proyecto SOL\DATA_STOCK\DATA_STOCK\DATA_STOCK\bin\DATA_STOCK.dll
+========== Rebuild All: 3 succeeded, 0 failed, 0 skipped ==========
+

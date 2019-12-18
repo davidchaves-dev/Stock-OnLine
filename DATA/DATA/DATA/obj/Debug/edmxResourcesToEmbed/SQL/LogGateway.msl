@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RequestLogModelStoreContainer" CdmEntityContainer="RequestLogEntities">
+    <FunctionImportMapping FunctionImportName="InsertLog" FunctionName="RequestLogModel.Store.InsertLog" />
+    <FunctionImportMapping FunctionImportName="GetLog" FunctionName="RequestLogModel.Store.GetLog">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="RequestLogModel.GetLog_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

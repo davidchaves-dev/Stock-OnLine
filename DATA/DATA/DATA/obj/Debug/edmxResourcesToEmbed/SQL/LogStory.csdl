@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StoryGOLDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="StoryGOLDEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="InsertMove">
+      <Parameter Name="date" Mode="In" Type="String" />
+      <Parameter Name="codProd" Mode="In" Type="String" />
+      <Parameter Name="cant" Mode="In" Type="Decimal" />
+      <Parameter Name="movType" Mode="In" Type="String" />
+      <Parameter Name="branchCode" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="InsertStock">
+      <Parameter Name="date" Mode="In" Type="String" />
+      <Parameter Name="page" Mode="In" Type="Int64" />
+      <Parameter Name="codProd" Mode="In" Type="String" />
+      <Parameter Name="codSuc" Mode="In" Type="String" />
+      <Parameter Name="cant" Mode="In" Type="Decimal" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

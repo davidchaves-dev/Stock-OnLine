@@ -1,0 +1,24 @@
+body
+{
+	background-color:#36486b
+}
+textarea {
+     
+     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+     box-sizing: border-box;         /* Opera/IE 8+ */
+	width: 100%;
+    height: 100%; 
+    box-sizing: border-box;
+background-color:#333333;
+color:#EEEEEE;
+font-size:12px !important;
+
+
+}
+#MyNetwork {
+
+            border: 0px solid green;
+            height: 100vh;
+        }
+
